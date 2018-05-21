@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  <head> 
+    <meta charset="UTF-8"> 
+    <title>Peta Kriminalitas | DI Yogyakarta Crime Map</title> 
+    <meta name=viewport content="width=device-width initialscale=1"> 
+    <link rel="stylesheet" href="./dist/themes/css/deepinsights.css" /> 
+    <script src="./dist/deep-insights.uncompressed.js"></script> 
+    <!--link rel="stylesheet" href="http://libs.cartocdn.com/di.js/v0/themes/css/deepinsights.css" /> 
+    <script src=" http://libs.cartocdn.com/di.js/v0/deepinsights.uncompressed.js"></script--> 
+    <style type="text/css"> 
+      html, body { 
+        position:relative; 
+        height: 100%; 
+        padding: 0; 
+        margin: 0; 
+      } 
+    </style> 
+  </head> 
+  <body> 
+ </div> 
+    <div id="dashboard"></div> 
+    <script> 
+      window.onload = function() { 
+        cartodb.deepInsights.createDashboard('#dashboard', 'https://zelin.carto.com/builder/55d14e81-be71-4d73-a865-fcd5d52af4df/embed', { 
+          no_cdn: false, 
+          cartodb_logo: false, 
+    zoomControl: true, 
+    scrollWheelZoom: true, 
+          share_urls: true, 
+    center: [-7.934165, 110.549206], 
+          zoom:2
+        }); 
+      } 
+    </script> 
+ <div id="add"> 
+  <a href="zelin.carto.com"></a> 
+  </body> 
+  <iframe width="100%" height="665" frameborder="0" src="https://zelin.carto.com/builder/55d14e81-be71-4d73-a865-fcd5d52af4df/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe
+</html> 
+
